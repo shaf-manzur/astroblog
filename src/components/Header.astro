@@ -1,0 +1,34 @@
+---
+import HeaderLink from "./HeaderLink.astro";
+import { SITE_TITLE } from "../consts";
+---
+
+<header>
+	<h2>
+		{SITE_TITLE}
+	</h2>
+	<p>personal site / project showcase / blog for my rants</p>
+	<nav>
+		<HeaderLink href="/">home</HeaderLink>
+		<HeaderLink href="/blog">blog</HeaderLink>
+		<HeaderLink href="/about">about</HeaderLink>
+		<HeaderLink target="_blank">|</HeaderLink>
+		<HeaderLink href="https://github.com/freshfriedfish" target="_blank">
+			git
+		</HeaderLink>
+		<HeaderLink
+			href="https://www.linkedin.com/in/shafmanzur/"
+			target="_blank"
+		>
+			linkedin
+		</HeaderLink>
+		<HeaderLink href="https://devpost.com/freshfriedfish" target="_blank">
+			devpost
+		</HeaderLink>
+	</nav>
+</header>
+<style>
+	h2 {
+		margin: 0.5em 0;
+	}
+</style>

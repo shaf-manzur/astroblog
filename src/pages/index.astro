@@ -1,0 +1,80 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import HeaderLink from "../components/HeaderLink.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={SITE_TITLE} />
+		<main>
+			<h2>Currently working on</h2>
+			<ul>
+				<li>
+					The <a href="https://svgtools.github.io/"
+						><u>SVG Tools</u></a
+					>
+					project<ul>
+						<li>
+							Training a diffusion model that generates vector
+							paths
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+			<h2>Past projects</h2>
+			<ul>
+				<li>
+					<a
+						href="https://github.com/NayeemK14628/FlashLang/tree/main/FlashLang"
+						><u>FlashDragon</u></a
+					>: Created at Dragonhacks.
+					<a href="https://devpost.com/software/flashlang"
+						><u>Devpost entry</u></a
+					> (2024)
+				</li>
+
+				<li>
+					<a href="https://www.communitysos.tech/"
+						><u>CommunitySOS</u></a
+					>: Created at HackPSU.
+					<a href="https://devpost.com/software/communitysos"
+						><u>Devpost entry</u></a
+					> (2024)
+				</li>
+				<li>My personal site: Thanks for stopping by 🙂 (2024)</li>
+				<li>
+					<a href="https://freshfriedfish.github.io/radial-designer/"
+						><u>Radial-Designer</u></a
+					> (2023)
+				</li>
+				<li>
+					<a href="https://www.npmjs.com/package/svgosu"
+						><u>SVGosu</u></a
+					> (2023)
+				</li>
+				<li>
+					<a
+						href="https://gitlab.com/LibreFoodPantry/client-solutions/nest/NEST"
+						><u>NEST</u></a
+					> (2023)
+				</li>
+				<li>
+					...more projects
+					<HeaderLink href="/blog/hackathons">
+						in this blog
+					</HeaderLink>
+				</li>
+			</ul>
+		</main>
+
+		<Footer />
+	</body>
+</html>
