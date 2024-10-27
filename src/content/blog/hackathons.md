@@ -8,7 +8,7 @@ heroImage: '/hackpsu-presenting.jpg'
 Travel journal of hackathons & other events I've attended.
 
 - **UB Hacking 2024**: Buffalo, NY (11/9/24)
-- **MIThacks**: Cambridge, MA (09/14/24)
+- **HackMIT**: Cambridge, MA (09/14/24)
 - **AI Agents Hackathon**: NYC (06/01/24)
 - **TD Bank X Latinas in Tech Summit**: NYC (05/17/24)
 - **MongoDB.local 2024**: NYC (05/02/24)
